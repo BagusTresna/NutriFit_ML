@@ -1,0 +1,7 @@
+/datatest
+/node_modules
+.env
+package-lock.json
+value.json
+requirements.json
+requirements.zip
