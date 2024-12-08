@@ -12,7 +12,7 @@ const loadModel = async() => {
 
     try {
         console.log("Loading model from:", modelUrl);
-        const model = await tf.loadGraphModel(modelUrl); // Memuat model dari URL atau path
+        const model = await tf.loadLayersModel(modelUrl); // Memuat model dari URL atau path
         console.log("Model loaded successfully.");
         return model;
     } catch (error) {
